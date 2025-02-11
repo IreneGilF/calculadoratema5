@@ -84,7 +84,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <?php endif; ?>
 
     <?php if ($error): ?>
-        <div class="result  error"><?= htmlspecialchars($error) ?></div>
+        <div class="result error"><?= htmlspecialchars($error) ?></div>
     <?php endif; ?>
 </body>
 </html>
